@@ -34,25 +34,19 @@
     <button onclick="bob()" style="background-color:white">
       My Github
     </button>
-    <script>
-      function bob() {window.open("https://github.com/goldenlegend7")}
-    </script>
-    <h3 style="dodgerblue">
-      Backgrounds
+    <h3 style="color:dodgerblue">
+      Backgrounds 
     </h3>
+    <button onclick="resetColor()">
+      Reset
+    </button>
     <button onclick="background()">
      Cool Background
     </button>
-    <script>
-      function background() { document.body.style.backgroundImage = "url('https://i.pinimg.com/736x/5d/34/8d/5d348d73c9b590d99c71a1596fc04332.jpg')";}
-    </script>
     <p></p>
     <button onclick="red()" style="background-color:red">
       Red
     </button>
-    <script>
-      function red() {document.body.style.backgroundColor = "red";}
-    </script>
     <p></p>
     <button onclick="coolblue()" style="background-color:aqua">
       Cool Blue
@@ -67,7 +61,33 @@
       Pink
     </button>
     <script>
-      function pink() {document.body.style.backgroundColor="pink";}
+      function bob() {
+        window.open("https://github.com/goldenlegend7")
+      }
+      
+      function resetColor() {
+        document.body.style.backgrundColor="black";
+      }
+      
+      function background() {
+        document.body.style.backgroundImage = "url('https://i.pinimg.com/736x/5d/34/8d/5d348d73c9b590d99c71a1596fc04332.jpg')";
+      }
+      
+      function red() {
+        document.body.style.backgroundColor = "red";
+      }
+      
+      function coolblue() {
+        document.body.style.backgroundColor ="aqua";
+      }
+      
+      function pink() {
+        document.body.style.backgroundColor="pink";
+      }
+      
+      function coolblue() {
+        document.body.style.backgroundColor ="aqua";
+      }
     </script>
   <footer>
     &copy; GoldenLegend7, 2023
