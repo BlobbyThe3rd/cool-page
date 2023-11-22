@@ -12,6 +12,14 @@
         bottom: 0;
         width: 100%;
       }
+      .center-button {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
     </style>
   </head>
   <body>
@@ -31,9 +39,11 @@
     <h3 style="color:dodgerblue">
       Buttons
     </h3>
-    <button onclick="bob()" style="background-color:white">
-      My Github
-    </button>
+    <div class="center-button">
+      <button onclick="bob()" style="background-color:white">
+        My Github
+      </button>
+    </div>
     <h3 style="color:dodgerblue">
       Backgrounds 
     </h3><button onclick="resetColor()" style="color:white;background-color:black">Reset</button>
@@ -54,6 +64,9 @@
   <button onclick="pink()" style="background-color:pink">
       Pink
     </button>
+    <p>
+      
+    </p>
     <button onclick="background()">
       Cool Background
     </button>
