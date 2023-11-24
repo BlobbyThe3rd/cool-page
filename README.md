@@ -5,4 +5,4 @@ Thank you,
 
 # How To Access
 Go to:
-https://goldenlegend7.github.io/cool-page/cool-page.html
+https://blobbythe3rd.github.io/cool-page/cool-page.html
