@@ -1,139 +1,248 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc_8D2LQ6r3SlQFDRKTvkjhNXxLNcuE8JKMQ&usqp=CAU">
-    <style>
-      footer {
-        background-color: #1e90ff;
-        color: #000000;
-        text-align: center;
-        padding: 10px;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        transform: translate(-02%, -00%);
-      }
-      .center1 {
-        margin: 0;
-        position: absolute;
-        top: 170px;
-        left: 221px;
-        transform: translate(-50%, -50%);
-      }
-      .center2 {
-        margin: 0;
-        position: absolute;
-        top:130px;
-        left:211px;
-        transform: translate(-50%, -50%);
-      }
-      .center3 {
-	margin: 0;
-	position: absolute;
-	top:215px;
-	left:100px;
-	transform: translate(-50%, -50%);
-      }
-      .center4 {
-	margin: 0;
-	position: absolute;
-	top: 210px;
-	left: 231px;
-	transform: translate(-50%, -50%);
-    </style>
-  </head>
-  <body>
-    <title>
-      Cool Page
-    </title>
-    <script>
-      document.body.style.backgroundColor="black"
-    </script>
-    <h1 style="color:dodgerblue;text-align:center">
-      Welcome To a Cool Page
-    </h1>
-    <p style="color:dodgerblue;text-align:center">
-       Created By BlobbyThe3rd
-    </p>
-    <div class="center2">
-      <h3 style="color:dodgerblue;text-align:center">
-        Buttons
-      </h3>
-    </div>
-    <div class="center1">
-      <button onclick="bob()" style="background-color:white">
-        My Github
-      </button>
-    </div>
-    <div class="center3">
-    	<h3 style="color:dodgerblue">
-      		Backgrounds 
-    	</h3>
-    	<button onclick="resetColor()" style="color:white;background-color:black">Reset</button>
-    	<p>
-      		
-    	</p>
-    	<p></p>
-    	<button onclick="red()" style="background-color:red">
-      		Red
-    	</button>
-    	<p></p>
-    	<button onclick="coolblue()" style="background-color:aqua">
-	      Cool Blue
-    	</button>
-    	<p>
-	       
-    	</p>
-  		<button onclick="pink()" style="background-color:pink">
-	      Pink
-    	</button>
-    	<p>
-      
-    	</p>
-    	<button onclick="background()" style="background-color:white">
-	      Cool Background
-    	</button>
-    </div>
-    <div class="center4">
-	<button onclick="friend()" style="background-color:white">
-		My Friend's Page
-	</button>
-    </div>
-    <script>
-      function bob() {
-        window.open("https://github.com/blobbythe3rd")
-      }
-      
-      function resetColor() {
-        document.body.style.backgroundColor="black"; 
-	document.body.style.backgroundImage= "none"
-      }
-      
-      function background() {
-        document.body.style.backgroundImage = "url('https://i.pinimg.com/736x/5d/34/8d/5d348d73c9b590d99c71a1596fc04332.jpg')";
-      }
-      
-      function red() {
-        document.body.style.backgroundColor = "red";
-	document.body.style.backgroundImage = "none"
-      }
-      
-      function coolblue() {
-        document.body.style.backgroundColor ="aqua";
-	document.body.style.backgroundImage = "none"
-      }
-      
-      function pink() {
-        document.body.style.backgroundColor="pink";
-	document.body.style.backgroundImage = "none"
-      }
 
-      function friend() {
-	window.open("https://sillywilly3.github.io/School_Resources/index.html")
-      }
-    </script>
+<head>
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc_8D2LQ6r3SlQFDRKTvkjhNXxLNcuE8JKMQ&usqp=CAU">
+  <style>
+    footer {
+      background-color: #1e90ff;
+      color: #000000;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      transform: translate(-02%, -00%);
+    }
+
+    .center2 {
+      margin: 0;
+      position: absolute;
+      top: 130px;
+      left: 211px;
+      transform: translate(-50%, -50%);
+    }
+
+    .backgrounds {
+      margin: 0;
+      position: absolute;
+      top: 215px;
+      left: 100px;
+      transform: translate(-50%, -50%);
+    }
+
+    .buttons {
+      margin: 0;
+      position: absolute;
+      top: 207.5px;
+      left: 242.5px;
+      transform: translate(-50%, -50%);
+    }
+
+    .sounds {
+      margin: 0;
+      position: absolute;
+      top: 207.5px;
+      left: 255.5px;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+
+<body>
+  <title>
+    Cool Page
+  </title>
+  <script>
+    document.body.style.backgroundColor = "black"
+  </script>
+  <h1 style="color:dodgerblue;text-align:center">
+    Welcome To a Cool Page
+  </h1>
+  <p style="color:dodgerblue;text-align:center">
+    Created By BlobbyThe3rd
+  </p>
+  <div class="center2">
+    <h3 style="color:dodgerblue;text-align:center">
+      Buttons
+    </h3>
+  </div>
+  <div class="backgrounds">
+    <h3 style="color:dodgerblue">
+      Backgrounds
+    </h3>
+    <button onclick="resetColor()" style="color:white;background-color:black">Reset</button>
+    <p>
+
+    </p>
+    <p></p>
+    <button onclick="red()" style="background-color:red">
+      Red
+    </button>
+    <p></p>
+    <button onclick="coolblue()" style="background-color:aqua">
+      Cool Blue
+    </button>
+    <p>
+
+    </p>
+    <button onclick="pink()" style="background-color:pink">
+      Pink
+    </button>
+    <p>
+
+    </p>
+    <button onclick="background()" style="background-color:white">
+      Cool Background
+    </button>
+  </div>
+  <div class="buttons">
+    <button onclick="bob()" style="background-color:white">
+      My Github
+    </button>
+    <p>
+    </p>
+    <button onclick="friend()" style="background-color:white">
+      My Friend's Page
+    </button>
+    <p>
+
+    </p>
+    <button onclick="matrix()" style="background-color:white">
+      Matrix
+    </button>
+  </div>
+  <div class="sounds">
+    <h3 style="color:dodgerblue">
+      Sound Effects
+    </h3>
+    <button onclick="among()" style="background-color:white">
+      Among Us
+    </button>
+  </div>
+  <script>
+    function bob() {
+      window.open("https://github.com/blobbythe3rd")
+    }
+
+    function resetColor() {
+      document.body.style.backgroundColor = "black";
+      document.body.style.backgroundImage = "none"
+    }
+
+    function background() {
+      document.body.style.backgroundImage = "url('https://i.pinimg.com/736x/5d/34/8d/5d348d73c9b590d99c71a1596fc04332.jpg')";
+    }
+
+    function red() {
+      document.body.style.backgroundColor = "red";
+      document.body.style.backgroundImage = "none"
+    }
+
+    function coolblue() {
+      document.body.style.backgroundColor = "aqua";
+      document.body.style.backgroundImage = "none"
+    }
+
+    function pink() {
+      document.body.style.backgroundColor = "pink";
+      document.body.style.backgroundImage = "none"
+    }
+
+    function friend() {
+      window.open("https://sillywilly3.github.io/School_Resources/index.html")
+    }
+
+    function matrix() {
+      (function() {
+        var wn = window,
+          w, h, o = {},
+          m, dc, b, c = 'ABCDEFGHIJKLM1234567890nopqrstuvwxyz',
+          y = setInterval,
+          z = clearInterval,
+          t = 1;
+
+        function x() {
+          dc = document;
+          b = dc.body;
+          b.innerHTML = '';
+          bs = b.style;
+          w = wn.innerWidth;
+          h = wn.innerHeight;
+          bs.backgroundColor = 'black';
+          bs.overflow = 'hidden';
+          m = y(n, 25);
+          dc.addEventListener('keydown', function(e) {
+            if (e.keyCode == 83) {
+              if (t) z(m);
+              else m = y(n, 25);
+              t = !t
+            }
+          }, 0)
+        }
+
+        function g(i) {
+          return dc.getElementById(i)
+        }
+
+        function r(d, m) {
+          return Math.floor(Math.random() * d) + m
+        }
+
+        function a(i) {
+          var d = g(i),
+            ds = d.style,
+            t = parseInt(ds.top),
+            k = o[i];
+          if (t < h) {
+            ds.top = (t + 10) + 'px'
+          } else {
+            z(k);
+            b.removeChild(d);
+            delete k
+          }
+        }
+
+        function n() {
+          var d = dc.createElement('div'),
+            dt = new Date(),
+            i = 'm_' + dt.getTime(),
+            ds = d.style,
+            v = ds.visibility,
+            j = 0,
+            u = [],
+            l = r(21, 4),
+            q = c.length,
+            p;
+          d.id = i;
+          ds.width = '5px';
+          ds.opacity = r(.3, .7);
+          ds.fontSize = r(8, 8) + 'px';
+          ds.lineHeight = '8px';
+          ds.color = 'green';
+          ds.position = 'absolute';
+          ds.left = r(w, 0) + 'px';
+          v = 'hidden';
+          while (j < l) {
+            p = r(q, 0);
+            u[j] = c.substring(p, p + 1);
+            j++
+          }
+          d.innerHTML = u.join("\n");
+          b.appendChild(d);
+          ds.top = -d.offsetHeight + 'px';
+          v = 'visible';
+          o[i] = y(function() {
+            a(i)
+          }, r(20, 40))
+        }
+        x();
+      })()
+    }
+  </script>
   <footer>
-        &copy; BlobbyThe3rd, 2023
+    &copy; BlobbyThe3rd, 2023
   </footer>
-  </body>
+</body>
+
 </html>
