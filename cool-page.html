@@ -42,8 +42,8 @@
     .sounds {
       margin: 0;
       position: absolute;
-      top: 207.5px;
-      left: 255.5px;
+      top: 158px;
+      left: 380px;
       transform: translate(-50%, -50%);
     }
   </style>
@@ -118,6 +118,11 @@
     </h3>
     <button onclick="among()" style="background-color:white">
       Among Us
+    </button>
+    <p>
+    </p>
+    <button onclick="shady()" style="background-color:white">
+      Slim Shady
     </button>
   </div>
   <script>
@@ -238,6 +243,16 @@
         }
         x();
       })()
+    }
+    
+    function among() {
+      const audio = new Audio('https://ia903408.us.archive.org/31/items/among-us-trap-remix-bass-boosted-leonz/Among%20Us%20Trap%20Remix%20Bass%20Boosted%20Leonz.mp3');
+      audio.play();
+    }
+    
+    function shady() {
+      const audio = new Audio('https://ia801600.us.archive.org/28/items/eminem-the-singles-boxset_202303/25.%20The%20Real%20Slim%20Shady.mp3');
+      audio.play();
     }
   </script>
   <footer>
